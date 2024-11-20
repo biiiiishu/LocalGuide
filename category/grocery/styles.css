@@ -1,0 +1,472 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #d6d3d3;
+    color: #333;
+}
+
+
+
+
+/* Navigation of thhe web page */
+nav {
+    background-color: #333;
+
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: #d35400;
+    border-radius: 5px;
+    /* transition: background-color 0.3s; */
+}
+
+
+
+
+
+
+/* Shop Name */
+header {
+    text-align: center;
+    background-color: #1c1d1c;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Shop Details Section */
+
+
+.shop-description p {
+    font-size: large;
+}
+
+.shop-details {
+    display: flex;
+
+    flex-direction: column;
+    background: #e7e3d9;
+    height: auto;
+
+
+
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.shop-details img {
+
+    margin: 10px;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    /* border-radius: 50%; */
+}
+
+.flexx {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.shop-details .description {
+
+    max-width: 500px;
+    
+    margin: 30px;
+}
+
+.shop-details .description h2 {
+    color: #4CAF50;
+}
+
+.shop-details .map-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.shop-details .map-link:hover {
+    background-color: #4CAF50;
+}
+
+.shop-description {
+    margin-top: 15px;
+
+}
+
+/* form */
+
+.inquiry-form {
+    background-color: #dcd0d0;
+    width: 25%;
+    height: 40%;
+    margin-right: 200px;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+
+}
+.inquiry-form:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,2) ;
+    border: 1px solid blue;
+
+}
+
+
+
+form {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+
+}
+
+form h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form label {
+    margin: 15px;
+    padding: 10px
+}
+
+form input {
+    margin: 15px;
+    padding: 10px
+}
+
+form textarea {
+    width: auto;
+    margin: 15px;
+    padding: 10px
+}
+
+form button {
+    background-color: #090909;
+    color: azure;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+
+.rating {
+    margin-top: 10px;
+    
+    font-size: 18px;
+}
+
+.rating span {
+    color: #f39c12;
+    /* Star color */
+}
+
+
+/*  testimonial */
+
+.testimonial {
+    /* border: 1px solid #2c2b2b; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    margin: 20px;
+    padding: 15px;
+
+}
+
+
+.testimonial-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.user {
+    /* background-color: rgb(221, 221, 221); */
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 1rem;
+    /* width: 30%; */
+    height: auto;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+
+    flex-direction: column;
+    
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.user:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,2) ;
+    border: 1px solid blue;
+}
+.testimonial h1 {
+    /* color: #4CAF50; */
+    text-align: center;
+
+}
+.feed-q p{
+    font-size: 0.875rem;
+}
+
+.name h3 {
+    text-align: center;
+}
+
+.position {
+    text-align: center;
+}
+
+.pro img {
+
+
+    border-radius: 50%;
+}
+
+
+
+
+.welcome-section {
+    /* margin: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-top: 100px;
+
+
+}
+
+/* Welcome Text */
+.welcome-text {
+
+    /* flex-direction: column; */
+    font-size: 3rem;
+    color: #121212;
+
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background-color: #ebeae8;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+    
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+    padding: 35px;
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 70p;
+
+}
+
+.item-cat{
+    display: flex;
+    flex-direction: column;
+}
+.feed-q p{
+    text-align: center;
+}
+
+
+
+
+.shop-image{
+    background-image: url(/handsome-male-shopkeeper-smiles-camera-leaning-minimarket-cash-register-337614957.webp);
+    background-repeat: none;
+    /* background-size: cover; */
+    /* width: 100vw; */
+}
+.rating-container{
+    background-image: url(/handsome-male-shopkeeper-smiles-camera-leaning-minimarket-cash-register-337614957.webp);
+    background-repeat: none;
+    background-size: cover;
+
+
+}
+
+
+
+
+
+
+.about-container{
+    border: 2px solid red;
+    width: 700px;
+    height: 400px;
+    background-color: #090909;
+}
+
+.shop-image{
+    display: flex;
+    /* margin-left: 20%; */
+    flex-direction: row;
+    /* align-self: self-start; */
+    
+}
+.img-is{
+    display: flex;
+    
+    
+}
+
+.rating-container{
+    display: flex;
+
+
+}
+.caro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* Rating css for the user who have visted */
+
+
+  .rating-container {
+    background: #bbb9b9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(231, 229, 229, 0.2);
+    text-align: center;
+    width: 36%;
+    margin: 10px;
+    margin-left: 18%;
+    
+    transition: background-color 0.3s;
+  }
+  .rating-container:hover{
+    border: 1px solid rgb(207, 204, 204)
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    font-size: 30px;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .rating input:checked ~ label {
+    color: #f39c12;
+  }
+  
+  .rating input#star1:checked ~ label {
+    color: #f39c12;
+  }
+  
+  .rating input:checked + label:hover,
+  .rating input:not(:checked) + label:hover,
+  .rating input:not(:checked) + label:hover ~ label {
+    color: #ffcc33;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: none;
+  }
+  
+  button {
+    background: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #d35400;
+  }
+  
